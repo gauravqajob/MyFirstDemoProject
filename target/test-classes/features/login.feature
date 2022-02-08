@@ -39,3 +39,7 @@ Feature: automate the demo websites
       | name  | value | status  |
       | name1 |     5 | success |
       | name2 |     7 | Fail    |
+      
+  @tag3
+  Scenario: Testing nested json api as demo purpose
+    Given user is hitting the given api 

@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 features = "D:\\eclipse-workspace\\Cucumber_Selenium\\src\\test\\java\\features",
 glue= {"stepDefinition"},
-tags= {"@tag1"},
+tags= {"@tag3"},
 //plugin = { "pretty", "html:target/htmlreports" },
 plugin = { "pretty", "io.qameta.allure.cucumberjvm.AllureCucumberJvm" },
 //plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
